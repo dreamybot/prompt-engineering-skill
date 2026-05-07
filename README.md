@@ -45,51 +45,6 @@ prompt-engineering-skill/
     └── tot-method.md                 # 思维树(ToT)方法
 ```
 
-## 🚀 快速开始
-
-### 在 CodeBuddy 中使用
-
-本技能已可直接使用，触发词示例：
-
-```
-帮我设计一个客服工单分类的提示词
-优化这个prompt，它输出太啰嗦
-我的提示词导致模型幻觉，怎么修
-我应该用什么提示技术来做QA任务
-给我一个代码审查的提示词模板
-帮我审查这个提示词的质量
-```
-
-### 在其他工具中安装
-
-详见 [`references/installation-guide.md`](references/installation-guide.md)，支持：
-
-| 平台 | 安装方式 |
-|------|---------|
-| Cursor | `.cursor/rules/` 或 `.cursorrules` |
-| Claude Desktop | Project Knowledge 上传 |
-| ChatGPT / GPTs | 自定义 GPT + Knowledge Files |
-| 任意 LLM | System Prompt 注入 |
-| Python 程序 | 导入引擎模块 |
-
-### Python 集成示例
-
-```python
-from prompt_engineering_skill import PromptEngineeringSkill, PromptSkillInput, Action
-
-skill = PromptEngineeringSkill()
-response = skill.execute(PromptSkillInput(
-    action=Action.DESIGN,
-    task_description="构建客服工单分类系统",
-))
-
-if response.success:
-    print(response.result.prompt)     # 生成的提示词
-    print(response.result.technique)  # 使用的技术
-```
-
-详见 [`references/integration-examples.md`](references/integration-examples.md)。
-
 ## ⚡ 6种核心动作
 
 | 动作 | 用途 | 必填参数 |
@@ -159,9 +114,7 @@ ls -la SKILL.md references/
 2. 更新兼容性矩阵
 3. 提交并打 Tag：`git tag v2.3.0`
 
-## 📤 上传到 SkillHub
 
-详见 [`references/skillhub-upload-guide.md`](references/skillhub-upload-guide.md)，支持 SkillHub / ClawHub / 私有化部署。
 
 ## 📄 许可证
 
