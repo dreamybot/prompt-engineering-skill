@@ -129,8 +129,3 @@ ls -la SKILL.md references/
 3. 提交更改：`git commit -m 'Add your feature'`
 4. 推送分支：`git push origin feature/your-feature`
 5. 创建 Pull Request
-
-## 📮 联系方式
-
-- 问题反馈：[GitHub Issues](https://github.com/<your-username>/prompt-engineering-skill/issues)
-- 讨论交流：[GitHub Discussions](https://github.com/<your-username>/prompt-engineering-skill/discussions)
