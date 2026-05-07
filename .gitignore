@@ -1,0 +1,82 @@
+# ===========================
+# OS Generated Files
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Editor / IDE
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+venv/
+.env
+*.pyc
+
+# ===========================
+# Node.js (if any tooling)
+# ===========================
+node_modules/
+package-lock.json
+
+# ===========================
+# Secrets & Credentials
+# ===========================
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+*_token*
+*_key*
+*.pem
+*.key
+
+# ===========================
+# Build / Cache
+# ===========================
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================
+# CodeBuddy Internal
+# ===========================
+.codebuddy/
+
+# ===========================
+# Temporary & Backup
+# ===========================
+*.tmp
+*.bak
+*.backup
+*~
+tmp/
+temp/
